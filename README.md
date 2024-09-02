@@ -17,7 +17,7 @@ For larger changes (like when adding a completely new notebook), you should test
 
 ./devel/render_notebooks.x
 
-(this will place temporary output in ./tmp_render_output).
+(this will place temporary output in `./tmp_render_output`).
 
 And you can build and view the website locally by:
 

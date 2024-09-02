@@ -1,3 +1,6 @@
+#actually not for docs but for pre-commit cleanup:
+nbstripout
+#for docs:
 sphinx
 papermill
 ipython
@@ -5,8 +8,12 @@ jupyter
 sphinx-autobuild
 sphinx-rtd-theme
 sphinx-toolbox
-#actually not for docs but for pre-commit cleanup:
-nbstripout
+nbsphinx
+pandoc
+#NOTICE the pandoc package is just python wrappers. Pandoc must be installed on
+#the system separately ( https://stackoverflow.com/a/71585691 ). So for instance
+#on ubuntu: sudo apt install pandoc
+
 
 
 #
